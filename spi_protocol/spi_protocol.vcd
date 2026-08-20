@@ -1,0 +1,214 @@
+$date
+	Thu Aug 20 13:45:30 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module spi_protocol_tb $end
+$var wire 1 ! sclk $end
+$var wire 8 " rx_data [7:0] $end
+$var wire 1 # mosi $end
+$var wire 1 $ done $end
+$var wire 1 % cs_n $end
+$var wire 1 & busy $end
+$var reg 1 ' clk $end
+$var reg 1 ( miso $end
+$var reg 1 ) reset $end
+$var reg 3 * slave_bit [2:0] $end
+$var reg 8 + slave_data [7:0] $end
+$var reg 1 , start $end
+$var reg 8 - tx_data [7:0] $end
+$scope module uut $end
+$var wire 1 ' clk $end
+$var wire 1 ( miso $end
+$var wire 1 ) reset $end
+$var wire 1 ! sclk $end
+$var wire 1 , start $end
+$var wire 8 . tx_data [7:0] $end
+$var parameter 2 / ST_DONE $end
+$var parameter 2 0 ST_IDLE $end
+$var parameter 2 1 ST_TRANSFER $end
+$var reg 3 2 bit_cnt [2:0] $end
+$var reg 1 & busy $end
+$var reg 1 % cs_n $end
+$var reg 1 $ done $end
+$var reg 1 # mosi $end
+$var reg 8 3 rx_data [7:0] $end
+$var reg 8 4 rx_shift [7:0] $end
+$var reg 2 5 state [1:0] $end
+$var reg 8 6 tx_shift [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 1
+b0 0
+b10 /
+$end
+#0
+$dumpvars
+b0 6
+b0 5
+b0 4
+b0 3
+b111 2
+b0 .
+b0 -
+0,
+b11110011 +
+b111 *
+1)
+1(
+0'
+0&
+1%
+0$
+0#
+b0 "
+0!
+$end
+#5000
+1!
+1'
+#10000
+0!
+0'
+#15000
+1!
+1'
+#20000
+0!
+0'
+0)
+#25000
+1!
+1'
+#30000
+0!
+0'
+#35000
+1!
+1'
+#40000
+0!
+0'
+1,
+b10100101 -
+b10100101 .
+#45000
+b1 5
+1&
+0%
+1#
+b10100101 6
+1!
+1'
+#50000
+0#
+b1001010 6
+b110 2
+b1 4
+0!
+0'
+0,
+#55000
+b110 *
+1!
+1'
+#60000
+1#
+b10010100 6
+b101 2
+b11 4
+0!
+0'
+#65000
+b101 *
+1!
+1'
+#70000
+0#
+b101000 6
+b100 2
+b111 4
+0!
+0'
+#75000
+b100 *
+1!
+1'
+#80000
+b1010000 6
+b11 2
+b1111 4
+0!
+0'
+#85000
+0(
+b11 *
+1!
+1'
+#90000
+1#
+b10100000 6
+b10 2
+b11110 4
+0!
+0'
+#95000
+b10 *
+1!
+1'
+#100000
+0#
+b1000000 6
+b1 2
+b111100 4
+0!
+0'
+#105000
+1(
+b1 *
+1!
+1'
+#110000
+1#
+b10000000 6
+b0 2
+b1111001 4
+0!
+0'
+#115000
+b0 *
+1!
+1'
+#120000
+b10 5
+0#
+1$
+0&
+1%
+b11110011 "
+b11110011 3
+b11110011 4
+0!
+0'
+#125000
+b0 5
+0$
+1!
+1'
+#130000
+0!
+0'
+#135000
+1!
+1'
+#140000
+0!
+0'
+#141000
